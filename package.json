@@ -1,0 +1,29 @@
+{
+  "name": "express-graphql-example",
+  "version": "1.0.0",
+  "description": "Study project using Express and GraphQL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node --presets es2015,stage-2"
+  },
+  "keywords": [
+    "example",
+    "express",
+    "graphql",
+    "nodejs"
+  ],
+  "author": "Wellington Costa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.11.0"
+  }
+}
